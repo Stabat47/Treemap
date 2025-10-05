@@ -30,7 +30,7 @@ An **interactive, responsive treemap** built with **D3.js** to visualize hierarc
 ---
 ## Live Demo
 You can view the interactive treemap here:  
-[Live Demo](https://your-live-demo-link.com)  
+[Live Demo](https://stabat47.github.io/Treemap/)  
 
 ---
 ## Usage
