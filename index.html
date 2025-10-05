@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Treemap</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="treemap-container">
+    <div id="header">
+      <h1 id="title">Video Game Sales</h1>
+      <p id="description">Top 100 Most Sold Video Games Grouped by Platform</p>
+    </div>
+
+    <div id="buttons">
+      <button class="active" data-url="https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/video-game-sales-data.json" data-title="Video Game Sales" data-desc="Top 100 Most Sold Video Games Grouped by Platform">Video Games</button>
+      <button data-url="https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/kickstarter-funding-data.json" data-title="Kickstarter Funding" data-desc="Top Kickstarter Pledges Grouped by Category">Kickstarter</button>
+      <button data-url="https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/movie-data.json" data-title="Movie Sales" data-desc="Top 100 Highest Grossing Movies">Movies</button>
+    </div>
+
+    <div id="chart">
+      <svg id="treemap"></svg>
+      <div id="tooltip"></div>
+    </div>
+
+    <svg id="legend"></svg>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
