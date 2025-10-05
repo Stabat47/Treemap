@@ -36,7 +36,7 @@ You can view the interactive treemap here:
 ## Usage
 1. Clone or download the repository:  
 ```bash
-git clone https://github.com/your-username/interactive-treemap.git
+git clone https://github.com/Stabat47/Treemap.git
 ```
 2. Open index.html in a modern web browser
 3. Click on dataset buttons to switch datasets
